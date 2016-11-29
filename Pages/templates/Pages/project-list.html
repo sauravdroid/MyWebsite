@@ -1,0 +1,124 @@
+{% load staticfiles %}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'Pages/css/project-list-style.css' %}">
+    <link rel="stylesheet" href="{% static 'Pages/css/fonts.css' %}">
+</head>
+<body>
+<header>
+    <h1 class="text-header">Projects</h1>
+    <h4 class="text-subheader">Here are a few projects that I worked on . Sit back and take a look .</h4>
+</header>
+<section class="project-list-section">
+    <div class="project-card" id="andro-bot">
+        <div class="left-part">
+            <div class="card-header">
+                <h3 class="card-header-text">Andro-Bot</h3>
+                <h1 class="card-project-no">01</h1>
+            </div>
+            <div class="technologies">
+                <span class="card-tech">Technologies : </span>
+                <ul style="list-style: none" class="technology-list">
+                    <li><span class="li-tech">Robtics</span></li>
+                    <li><span class="li-tech">Android</span></li>
+                    <li><span class="li-tech">Image Processing</span></li>
+                    <li><span class="li-tech">Open CV</span></li>
+                    <li><span class="li-tech">Arduino</span></li>
+                </ul>
+            </div>
+            <div class="brief-desc">
+                <h3 class="card-brief-desc-header">Brief Description</h3>
+                <h5 class="card-brief-desc">
+                    An android controlled robot that can be controlled using an Android phone.
+                    There are two types of controls one through video stream where one phone
+                    acts a camera so that it streams video to the controller phone and the other
+                    phone as the controller . The other type of control is through image processing
+                    Where two colors needs to be held in front of the camera .
+                </h5>
+            </div>
+        </div>
+        <div class="right-part">
+            <ul style="list-style: none" class="right-part-list">
+                <li>
+                    <div class="list-details">
+                        <svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" class="clock-svg"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+                            <title>Shape</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Project-Page" transform="translate(-989.000000, -363.000000)" fill="#F33131">
+                                    <g id="Project-Card" transform="translate(189.000000, 321.000000)">
+                                        <g id="ic_alarm" transform="translate(800.000000, 42.000000)">
+                                            <path d="M26.1290323,5.12294931 L20.1193548,-4.42312853e-13 L18.4340323,2.03059908 L24.4437097,7.15354839 L26.1290323,5.12294931 L26.1290323,5.12294931 Z M7.68193548,2.03059908 L6.00967742,-4.42312853e-13 L-1.77635684e-15,5.10967742 L1.68532258,7.1402765 L7.68193548,2.03059908 L7.68193548,2.03059908 Z M13.7177419,8.14894009 L11.7580645,8.14894009 L11.7580645,16.1120737 L17.9637097,19.8945622 L18.9435484,18.2621198 L13.7177419,15.116682 L13.7177419,8.14894009 L13.7177419,8.14894009 Z M13.0645161,2.84018433 C6.57145161,2.84018433 1.30645161,8.18875576 1.30645161,14.7848848 C1.30645161,21.3810138 6.5583871,26.7295853 13.0645161,26.7295853 C19.5575806,26.7295853 24.8225806,21.3810138 24.8225806,14.7848848 C24.8225806,8.18875576 19.5575806,2.84018433 13.0645161,2.84018433 L13.0645161,2.84018433 Z M13.0645161,24.0752074 C8.00854839,24.0752074 3.91935484,19.921106 3.91935484,14.7848848 C3.91935484,9.64866359 8.00854839,5.49456221 13.0645161,5.49456221 C18.1204839,5.49456221 22.2096774,9.64866359 22.2096774,14.7848848 C22.2096774,19.921106 18.1204839,24.0752074 13.0645161,24.0752074 L13.0645161,24.0752074 Z"
+                                                  id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <h5 class="time-reqd">Time Required</h5>
+                        <h5 class="months">4 Months</h5>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-details">
+                        <svg class="people-svg" width="27px" height="17px" viewBox="0 0 27 17" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+                            <title>Shape</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Project-Page" transform="translate(-989.000000, -470.000000)" fill="#F34040">
+                                    <g id="Project-Card" transform="translate(189.000000, 321.000000)">
+                                        <g id="ic_people" transform="translate(800.000000, 149.000000)">
+                                            <path d="M18.2142857,7.28571429 C20.23,7.28571429 21.845,5.65857143 21.845,3.64285714 C21.845,1.62714286 20.23,0 18.2142857,0 C16.1985714,0 14.5714286,1.62714286 14.5714286,3.64285714 C14.5714286,5.65857143 16.1985714,7.28571429 18.2142857,7.28571429 L18.2142857,7.28571429 Z M8.5,7.28571429 C10.5157143,7.28571429 12.1307143,5.65857143 12.1307143,3.64285714 C12.1307143,1.62714286 10.5157143,0 8.5,0 C6.48428571,0 4.85714286,1.62714286 4.85714286,3.64285714 C4.85714286,5.65857143 6.48428571,7.28571429 8.5,7.28571429 L8.5,7.28571429 Z M8.5,9.71428571 C5.67071429,9.71428571 0,11.135 0,13.9642857 L0,17 L17,17 L17,13.9642857 C17,11.135 11.3292857,9.71428571 8.5,9.71428571 L8.5,9.71428571 Z M18.2142857,9.71428571 C17.8621429,9.71428571 17.4614286,9.73857143 17.0364286,9.775 C18.445,10.795 19.4285714,12.1671429 19.4285714,13.9642857 L19.4285714,17 L26.7142857,17 L26.7142857,13.9642857 C26.7142857,11.135 21.0435714,9.71428571 18.2142857,9.71428571 L18.2142857,9.71428571 Z"
+                                                  id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <h5 class="time-reqd">Involvement</h5>
+                        <h5 class="months">Team</h5>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-details">
+                        <svg class="client-svg" width="22px" height="21px" viewBox="0 0 22 21" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+                            <title>Shape</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Project-Page" transform="translate(-991.000000, -572.000000)" fill="#F34040">
+                                    <g id="Project-Card" transform="translate(189.000000, 321.000000)">
+                                        <g id="ic_work" transform="translate(802.000000, 251.000000)">
+                                            <path d="M19.8,4.42105263 L15.4,4.42105263 L15.4,2.21052632 C15.4,0.983684211 14.421,0 13.2,0 L8.8,0 C7.579,0 6.6,0.983684211 6.6,2.21052632 L6.6,4.42105263 L2.2,4.42105263 C0.979,4.42105263 0.011,5.40473684 0.011,6.63157895 L0,18.7894737 C0,20.0163158 0.979,21 2.2,21 L19.8,21 C21.021,21 22,20.0163158 22,18.7894737 L22,6.63157895 C22,5.40473684 21.021,4.42105263 19.8,4.42105263 L19.8,4.42105263 Z M13.2,4.42105263 L8.8,4.42105263 L8.8,2.21052632 L13.2,2.21052632 L13.2,4.42105263 L13.2,4.42105263 Z"
+                                                  id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <h5 class="time-reqd">Client</h5>
+                        <h5 class="months">Hobby Project</h5>
+                    </div>
+                </li>
+            </ul>
+            <div class="read-more-div">
+                <span class="read-more-text">Read more</span>
+                <div class="read-more-bar"></div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

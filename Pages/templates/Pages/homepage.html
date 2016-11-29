@@ -1,0 +1,61 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'Pages/css/home-page.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Pages/css/fonts.css' %}">
+</head>
+<body>
+<header class="home-page gradient-header">
+    <span class="text-header name-header">Hey I am Saurav Biswas</span>
+    <h3 class="text-header welcome-header">Welcome , have a good morning</h3>
+    <div class="icons-holder">
+        <img class="icons browser" src="{% static 'Pages/icons/Group Browser.svg' %}">
+        <div class="bar rounded"></div>
+        <img class="icons android-design" src="{% static 'Pages/icons/Android-Design.svg' %}">
+    </div>
+    <div class="lower-header-content">
+        <h5 class="text-header lower-header web-header">Web and Android</h5>
+        <h5 class="text-header lower-header developer-header">Developer</h5>
+    </div>
+</header>
+<section class="detail-section">
+    <div class="card-holder" id="about-holder">
+        <div class="background" id="about-background" onclick="location.href='{% url 'pages:about' %}'">
+            <span class="card-header">My<br>Resume</span>
+            <img class="card-icons" src="{% static 'Pages/icons/Circles.svg' %}">
+        </div>
+    </div>
+
+    <div class="card-holder" id="projects-holder" onclick="location.href='{% url 'pages:projects' %}'">
+        <div class="background" id="projects-background">
+            <span class="card-header">My<br>Projects</span>
+            <img class="card-icons" src="{% static 'Pages/icons/Stars.svg' %}">
+        </div>
+    </div>
+
+    <div class="card-holder" id="skills-holder">
+        <div class="background" id="skills-background">
+            <span class="card-header">Skills<br>Known</span>
+            <img class="card-icons" src="{% static 'Pages/icons/Group 7.svg' %}">
+        </div>
+    </div>
+</section>
+<section class="contact-section">
+    <div class="contact-me-card">
+        <!--<span id="gen_in_touch">Get in touch with me</span>-->
+    </div>
+    <div class="contact-me-icons">
+        <ul style="list-style: none">
+            <li><img class="contact-icons" src="{% static 'Pages/icons/Google-color.svg' %}"></li>
+            <li><img class="contact-icons" src="{% static 'Pages/icons/Facebook-color.svg' %}"></li>
+            <li><img class="contact-icons" style="margin-top: 2px;" src="{% static 'Pages/icons/Twitter-color.svg' %}"></li>
+            <li><img class="contact-icons" src="{% static 'Pages/icons/GooglePlus-color.svg' %}"></li>
+            <li><img class="contact-icons" src="{% static 'Pages/icons/Instagram-color.svg' %}"></li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>

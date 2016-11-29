@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.gradient-header{
+    background: linear-gradient(to bottom, #115BDC, #733AD5);
+    width:100%;
+    height: 400px;
+    text-align: center;
+}
+.text-header{
+    font-family: Avenir;
+    font-weight: 400;
+    color:#fff;
+}
+.name-header{
+    top:40px;
+    font-size: 20px;
+    position: relative;
+}
+.welcome-header{
+    position: relative;
+    top:10px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+    transform: scale(0.8,0.8);
+    position: absolute;
+}
+.browser{
+    left: 330px;
+}
+.icons-holder{
+    top:10px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.android-design{
+    right:400px;
+}
+.bar,.rounded{
+    position: absolute;
+    width: 2px;
+    height: 130px;
+    background-color: #fff;
+    left : 50%;
+    top:25px;
+    border-radius: 100px;
+}
+.lower-header{
+    font-size: 18px;
+    position: relative;
+    font-family: Avenir;
+}
+.lower-header-content{
+    top:-10px;
+    position: relative;
+}
+.web-header{
+    top:-20px;
+}
+.developer-header{
+    top:-45px;
+}
+.detail-section{
+    position: relative;
+    margin-left: 50px;
+    padding: 20px;
+}
+.card-holder{
+    box-shadow: 0 2px 5px rgba(155,152,152,0.5);
+    display: block;
+    width: 250px;
+    height:110px;
+    border-radius: 4px;
+    position: absolute;
+    transition: all 0.4s ease;
+}
+.card-holder .background{
+    width: 250px;
+    height:100px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: absolute;
+}
+.card-header{
+    font-family: Avenir;
+    font-weight: 500;
+    color:#fff;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    left:15px;
+}
+.card-icons{
+    position: absolute;
+    right:15px;
+    top:10px;
+    transform: scale(0.8,0.8);
+
+}
+#about-background{
+    background: linear-gradient(to right, #F68467, #F4AC5C);
+}
+
+#projects-background{
+    background: linear-gradient(to right, #FAD33D, #EDAF1A);
+}
+#skills-background{
+    background: linear-gradient(to right, #73D8E7, #857EEB);
+}
+
+#about-holder{left:30px;}
+#projects-holder{left: 460px;}
+#skills-holder{ right: 100px;}
+.card-holder:hover{
+    box-shadow: 0 6px 10px rgba(155,152,152,0.5);
+}
+
+.contact-section{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-me-card{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width:600px;
+    height:70px;
+    left: 26%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0 14px 18px rgba(143,143,143,0.6);
+    border : 1px solid #f4f4f4;
+}
+
+#gen_in_touch{
+    font-size: 14px;
+    color:#666666;
+    font-family: roboto_regular;
+    position: relative;
+    top:15px;
+}
+
+ul li{
+    float: left;
+
+}
+.contact-me-icons{
+    position: relative;
+    left: 25%;
+    top: -3px;
+}
+
+.contact-icons{
+    transform: scale(0.6,0.6);
+    margin-left: 45px;
+    transition: all 0.4s ease;
+}
+.contact-icons:hover{
+    transform: scale(1,1);
+}

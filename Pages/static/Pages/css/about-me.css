@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h3, h4, h2, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: block;
+    position: relative;
+}
+
+.about-header {
+    background: linear-gradient(to bottom, #2DC1D6, #6D23FF);
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.left-part {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    display: inline-block;
+}
+
+.header-text {
+    color: #fff;
+}
+
+.header-saurav {
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.avenir-heavy {
+    font-family: Avenir;
+    font-weight: 800;
+}
+
+.header-about {
+    position: absolute;
+    right: 30px;
+    color: rgba(255, 255, 255, .2);
+    font-family: Avenir;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 180px;
+    bottom: -75px;
+
+}
+
+.header-details {
+    position: relative;
+    font-family: Avenir;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 20px;
+    display: inline-block;
+    top: 25px;
+    left: 15px;
+}
+
+.web {
+    color: #BDEDF9;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.android {
+    color: #D2FFD2;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.about-bar {
+    background-color: #fff;
+    width: 7px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.about-me-section {
+    position: relative;
+    left: 20%;
+    top: -20px;
+}
+
+.about-me-card {
+    width: 400px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 20px 41px rgba(0, 0, 0, 0.25);
+    padding: 30px 10px 30px 20px;
+    display: inline-table;
+    z-index: 21;
+    position: relative;
+}
+
+.about-me-header {
+    color: #4333ED;
+    font-size: 22px;
+    font-family: Avenir;
+    font-weight: 400;
+}
+
+.about-me-text {
+    color: #6D6D6D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.career-goals-card {
+    background-color: #363E82;
+    border-radius: 3px;
+    box-shadow: 0 7px 21px rgba(0, 0, 0, 0.2);
+    padding: 30px 10px 30px 60px;
+    width: 350px;
+    display: inline-table;
+    position: relative;
+    top: 50px;
+    left: -35px;
+    z-index: 10;
+}
+
+.career-goals-header {
+    color: #49FFF3;
+    font-family: "Avenir Next";
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.career-goals-text {
+    color: #CDECED;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+.education-section {
+    position: relative;
+    left: 20%;
+    top: 80px;
+}
+
+.education-header {
+    font-family: Avenir;
+    font-weight: 500;
+    color: #4333ED;
+    font-size: 20px;
+}
+
+.standard {
+    font-family: "Andale Mono";
+    font-weight: normal;
+    font-size: 30px;
+    color: #5D4D44;
+    padding-bottom: 10px;
+}
+
+.board {
+    font-family: "Andale Mono";
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 8px 0;
+    color: #82756F;
+}
+
+.institution, .subject {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #82756F;
+    padding: 10px 0;
+}
+
+table {
+    left: -6px;
+    position: relative;
+    top: -10px;
+}
+
+.td {
+    width: 420px;
+    height: 240px;
+}
+
+.extra-curricular-section {
+    position: relative;
+    top: 140px;
+}
+
+.extra-container {
+    position: relative;
+    left: 17%;
+    width: 900px;
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #3D3DA0, #2CA0B8);
+    box-shadow: 0 24px 54px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.achievement-container {
+    position: relative;
+    float: left;
+    clear: both;
+    display: table;
+    height: 150px;
+}
+
+.medal-icon {
+    width: 41px;
+    height: 50px;
+
+}
+
+.fest-name {
+    font-family: Avenir;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F3F3F3;
+    position: relative;
+    left: 55px;
+    top: -57px;
+}
+
+.venue {
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    left: 55px;
+    top: -50px;
+}
+
+.extra-year {
+    font-family: Delicious;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.extra-container-table {
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+.td-achievement {
+    min-width: 400px;
+}
+
+.extra-container-header {
+    color: #E6E6E6;
+    font-family: Avenir;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.experience-section {
+    top: 300px;
+    position: relative;
+    width: 100%;
+    height: 1450px;
+/ / left: 12 %;
+    background: linear-gradient(to bottom, #372A73, #6955AC);
+    overflow: hidden;
+}
+
+.experience-bar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+/ / text-align: center;
+}
+
+.experience-container {
+
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.experience-header {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    font-family: Delicious;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FAC802;
+}
+
+.experience-header-text {
+    color: #50E3C2;
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.experience-text {
+    max-width: 350px;
+    color: #fff;
+    font-family: "Josefin Sans";
+    line-height: 1.6em;
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+}
+
+.experience-table {
+    position: relative;
+    left: 80px;
+    top: 100px;
+    z-index: 3;
+}
+
+.second-experience {
+    left: 250px;
+    position: relative;
+}
+
+.experience-text-bar {
+    width: 60px;
+    height: 6px;
+    background-color: #50E3C2;
+    position: relative;
+    top: 6px;
+}
+
+.oval-top {
+    position: absolute;
+    transform: scale(0.6, 0.6);
+    left: 23%;
+}
+
+.oval-middle {
+    position: absolute;
+    transform: scale(0.7, 0.7);
+    z-index: 10;
+    top: 340px;
+    left: -22%;
+}
+
+.experience-td {
+    float: left;
+}
+
+.oval-left-middle {
+    position: absolute;
+    right: -20%;
+    transform: scale(0.7, 0.7);
+    top: 110%;
+}
+
+.skills-container {
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+    background: linear-gradient(to bottom right, #F85C5C, #EF7E11);
+    width: 850px;
+    height: 500px;
+    left: 18%;
+    top: 135%;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.skills-header {
+    position: relative;
+    font-family: Delicious;
+    font-size: 28px;
+    color: #fff;
+    top: 30px;
+}
+
+.double-oval {
+    top: 10px;
+    right: -20%;
+    position: absolute;
+    transform: scale(0.6, 0.6);
+}
+
+.skills-detail-container {
+    position: relative;
+    display: block;
+    overflow: inherit;
+    margin-left: 60px;
+    text-align: left;
+    top:80px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.skills-languages {
+    position: relative;
+    left:0;
+    font-family: Avenir;
+    font-weight: 500;
+    color:#fff;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ul {
+
+}
+
+
+.li{
+
+    position: relative;
+    float: left;
+    color:#fff;
+    font-family: Avenir;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 40px;
+    top:10px;
+    padding-bottom: 15px;
+}
+.skills-bar {
+    width: 60px;
+    height: 6px;
+    background-color: #fff;
+    position: relative;
+    top:6px;
+}
+.basic-information{
+    position: relative;
+    top:300px;
+}
+.basic-information-card{
+    width: 590px;
+    height: 390px;
+    position: absolute;
+    left:26%;
+    top:100px;
+    margin-bottom: 100px;
+}

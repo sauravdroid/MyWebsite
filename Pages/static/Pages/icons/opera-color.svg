@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="48px" viewBox="0 0 46 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>opera-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-579.000000, -393.000000)" fill="#D00003">
+            <g id="Group-3" transform="translate(429.000000, 271.000000)">
+                <path d="M173.007162,122 C159.930014,122 150,131.094835 150,145.771068 C150,158.451456 159.198483,170 172.999338,170 C186.803322,170 196,158.451456 196,145.771068 C195.99988,131.111728 186.084552,122 173.007162,122 L173.007162,122 Z M173.006561,126.240194 C180.410464,126.240194 181.91626,136.23899 181.91626,145.318097 C181.91626,153.72835 181.078436,164.987728 173.097445,164.987728 C165.116454,164.987728 164.084463,153.618136 164.084463,145.208583 C164.084463,136.130175 165.601934,126.240194 173.006561,126.240194 L173.006561,126.240194 Z" id="opera"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,279 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{% static 'Pages/css/about-me.css' %}">
+    <link rel="stylesheet" href="{% static 'Pages/css/fonts.css' %}">
+</head>
+<body>
+<header class="about-header">
+    <div class="left-part">
+        <h3 class="header-text header-saurav">Hey I am <span class="avenir-heavy">Saurav</span></h3>
+        <div class="header-text about-bar"></div>
+        <h4 class="header-text header-details">Full stack <span class="web">Web</span> and <br> <span class="android">Android developer</span>
+            from
+            Kolkata</h4>
+    </div>
+    <h1 class="header-about">About</h1>
+</header>
+<section class="about-me-section">
+    <div class="about-me-card">
+        <h3 class="about-me-header">Few things about me</h3>
+        <p class="about-me-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+    <div class="career-goals-card">
+        <h3 class="career-goals-header">Career Goals</h3>
+        <p class="career-goals-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+        </p>
+    </div>
+</section>
+<section class="education-section">
+
+    <h3 class="education-header">Education</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td class="td">
+                <div class="table-div">
+                    <h2 class="standard">10th</h2>
+                    <h4 class="board">ICSE</h4>
+                    <h5 class="institution">Julien Day School</h5>
+                    <h5 class="subject">Science , Batch of 2010</h5>
+                </div>
+            </td>
+            <td class="td">
+                <div>
+                    <h2 class="standard">Undergrad</h2>
+                    <h4 class="board">Calcutta University</h4>
+                    <h5 class="institution">St. Xavier's College Kolkata</h5>
+                    <h5 class="subject">B.Sc in Computer Science , Batch of 2015</h5>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td">
+                <div class="table-div">
+                    <h2 class="standard">12th</h2>
+                    <h4 class="board">ISC</h4>
+                    <h5 class="institution">Julien Day School</h5>
+                    <h5 class="subject">Science , Batch of 2012</h5>
+                </div>
+            </td>
+            <td class="td">
+                <div>
+                    <h2 class="standard">Postgrad</h2>
+                    <h4 class="board">Calcutta University</h4>
+                    <h5 class="institution">Rajabazar Science College</h5>
+                    <h5 class="subject">M.Sc in Computer and Information Science ,
+                        Batch of 2017</h5>
+                </div>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</section>
+<section class="extra-curricular-section">
+    <div class="extra-container">
+        <h3 class="extra-container-header">Extra-Curricular</h3>
+        <table class="extra-container-table">
+            <tbody>
+            <tr>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/gold medal.svg' %}">
+                        <h3 class="fest-name">Eureka <span class="extra-year">2013</span></h3>
+                        <h3 class="venue">St. Xavier's College Kolkata</h3>
+                    </div>
+                </td>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/gold medal.svg' %}">
+                        <h3 class="fest-name">Edge <span class="extra-year">2014</span></h3>
+                        <h3 class="venue">Techno India Saltlake</h3>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/silver medal.svg' %}">
+                        <h3 class="fest-name">Cultvision<span class="extra-year">2013</span></h3>
+                        <h3 class="venue">Research and Scholar Association (IACS)</h3>
+                    </div>
+                </td>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/gold medal.svg' %}">
+                        <h3 class="fest-name">Entrepreneurship Awareness Camp <span class="extra-year">2014</span></h3>
+                        <h3 class="venue">St. Xavier's College Kolkata</h3>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/gold medal.svg' %}">
+                        <h3 class="fest-name">Instruo <span class="extra-year">2014</span></h3>
+                        <h3 class="venue">IIEST , Science and Technology Shibpur</h3>
+                    </div>
+                </td>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/bronze medal.svg' %}">
+                        <h3 class="fest-name">Entrepreneurship , Innovation and<br>
+                            Inclusiveness a strategic paradigm <br><span class="extra-year">2014</span></h3>
+                        <h3 class="venue">Jyoti Nivas College Bangalore</h3>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="td-achievement">
+                    <div class="achievement-container">
+                        <img class="medal-icon" src="{% static 'Pages/icons/gold medal.svg' %}">
+                        <h3 class="fest-name">Reflexon <span class="extra-year">2016</span></h3>
+                        <h3 class="venue">Calcutta University Tech campus</h3>
+                    </div>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</section>
+<section class="experience-section">
+    <div class="experience-bar">
+        <h3 class="experience-header">Experience</h3>
+        <img src="{% static 'Pages/icons/oval-top.svg' %}" class="oval-top">
+        <img src="{% static 'Pages/icons/oval-middle.svg' %}" class="oval-middle">
+        <img src="{% static 'Pages/icons/oval-left-middle.png' %}" class="oval-left-middle">
+        <table class="experience-table">
+            <tbody>
+            <tr class="first-experience-tr">
+                <td class="experience-td">
+                    <div class="experience-container">
+                        <h3 class="experience-header-text">SUmApps</h3>
+                        <div class="experience-text-bar"></div>
+                        <p class="experience-text">Cofounder , founded while studying in St. Xavier’s with 3 other
+                            members,
+                            we are mainly focused in developing Android apps with beautiful design ,
+                            here I was involved in both Design and Development and we currently have
+                            6 apps with one of them having more than 5000+ downloads
+
+                        </p>
+                    </div>
+                </td>
+                <td class="second-experience experience-td">
+                    <div class="experience-container">
+                        <h3 class="experience-header-text">Android</h3>
+                        <div class="experience-text-bar"></div>
+                        <p class="experience-text">I have had the experience on working on various Android projects , it
+                            was my first love
+                            in the development world.I have fully designed and developed apps from scratch for various
+                            college events and as my hobby . I have also used Android for controlling a robot
+                            using Computer Vision Technology.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="experience-td">
+                    <div class="experience-container">
+                        <h3 class="experience-header-text">Web</h3>
+                        <div class="experience-text-bar"></div>
+                        <p class="experience-text">I started developing for web from 2014 . I have mainly developed
+                            websites for college projects . Having worked on both frontend and backend . I used PHP as
+                            the primary language for backend . After using Python I fell in love with it and have
+                            completely shifted
+                            my focus on creating backend using Django Web Framework .
+                        </p>
+                    </div>
+                </td>
+                <td class="second-experience experience-td">
+                    <div class="experience-container">
+                        <h3 class="experience-header-text">Robotics</h3>
+                        <div class="experience-text-bar"></div>
+                        <p class="experience-text">I fell in love with robotics when I went to a Tech Fest in Shibpur
+                            IIEST . It was amazing to see people creating there own robots and innovating on them . But
+                            I wanted to do something different rather than a wire controlled robot that have some basic
+                            movements and features . So I created an Android Controlled Robot based on Bluetooth
+                            and Computer Vision , which I later converted to a wifi controlled robot and won various
+                            Tech Fest competition with that .
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="skills-container">
+            <img class="double-oval" src="{% static 'Pages/icons/double-oval.svg' %}">
+            <h3 class="skills-header">Technical Skills</h3>
+            <div class="skills-detail-container">
+                <h3 class="skills-languages">Languages</h3>
+                <div class="skills-bar"></div>
+                <ul class="ul">
+                    <li class="li">Java</li>
+                    <li class="li">C</li>
+                    <li class="li">Python</li>
+                    <li class="li">PHP</li>
+                    <li class="li">HTML5</li>
+                    <li class="li">CSS3</li>
+                    <li class="li">Javascript</li>
+
+
+                </ul>
+            </div>
+
+            <div class="skills-detail-container">
+                <h3 class="skills-languages">Frameworks</h3>
+                <div class="skills-bar"></div>
+                <ul class="ul">
+                    <li class="li">Polymer</li>
+                    <li class="li">Django</li>
+                    <li class="li">Jquery</li>
+                    <li class="li">Laravel</li>
+                    <li class="li">Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="skills-detail-container">
+                <h3 class="skills-languages">Technologies</h3>
+                <div class="skills-bar"></div>
+                <ul class="ul">
+                    <li class="li">Adobe Illustrator</li>
+                    <li class="li">Sketch v3</li>
+                    <li class="li">HTML5</li>
+                    <li class="li">SVG</li>
+                    <li class="li">Web Components</li>
+                    <li class="li">Android</li>
+                    <li class="li">OpenCV</li>
+                    <li class="li">Arduino</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="basic-information">
+    <div class="post-card-container">
+        <img class="basic-information-card" src="{% static 'Pages/icons/post-card-new.svg' %}">
+    </div>
+</section>
+</body>
+</html>

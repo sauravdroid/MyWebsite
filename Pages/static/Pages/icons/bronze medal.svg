@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="688px" height="825px" viewBox="0 0 688 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bronze medal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="47.5058113%" y1="52.9664121%" x2="16.9581658%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-2" font-family="Roboto-Black, Roboto" font-size="250" font-weight="700" fill="#FFFFFF">
+            <tspan x="267" y="712">3</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.521258503   0 0 0 0 0.389573093   0 0 0 0 0.164744342  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medal-artboard" transform="translate(-2009.000000, -948.000000)">
+            <g id="bronze-medal" transform="translate(2009.000000, 948.000000)">
+                <g id="red-white-blue-back" transform="translate(208.000000, 201.000000) scale(-1, 1) translate(-208.000000, -201.000000) ">
+                    <polygon id="blue" fill="#E30000" points="371.647599 0.126665255 415.508805 0.121931962 142.331553 400.240522 93.1484375 400.015625"></polygon>
+                    <polygon id="white" fill="#F9F9F9" points="321.647599 0.126665255 371.508805 0.121931962 98.3315535 400.240522 43.1484375 400.015625"></polygon>
+                    <polygon id="red" fill="#4A90E2" points="278.647599 0.126665255 322.508805 0.121931962 49.3315535 400.240522 0.1484375 401.015625"></polygon>
+                </g>
+                <g id="shadow" transform="translate(208.000000, 201.000000) scale(-1, 1) translate(-208.000000, -201.000000) " fill-opacity="0.5" fill="url(#linearGradient-1)">
+                    <path d="M322.505629,0.126583802 L371.508805,0.121931962 L364.427977,10.4931136 L371.647599,0.126665255 L415.508805,0.121931962 L142.331553,400.240522 L98.4684911,400.039952 L98.3315535,400.240522 L49.4675172,400.041378 L49.3315535,400.240522 L0.1484375,401.015625 L278.647599,0.126665255 L322.508805,0.121931962 Z" id="combined-element"></path>
+                </g>
+                <path d="M246.065901,398.710108 C246.065901,389.326464 253.68488,381.719517 263.065996,381.719517 L422.661771,381.719517 C432.050665,381.719517 439.661867,389.32507 439.661867,398.710108 L439.661867,462.431563 C439.661867,471.815207 432.042888,479.422154 422.661771,479.422154 L263.065996,479.422154 C253.677103,479.422154 246.065901,471.816601 246.065901,462.431563 L246.065901,398.710108 Z M267.777598,409.809977 C267.777598,404.288577 272.251572,399.812598 277.776307,399.812598 L407.951461,399.812598 C413.473595,399.812598 417.95017,404.297199 417.95017,409.809977 L417.95017,458.568926 C417.95017,464.090326 413.476196,468.566306 407.951461,468.566306 L277.776307,468.566306 C272.254172,468.566306 267.777598,464.081704 267.777598,458.568926 L267.777598,409.809977 Z" id="handle" fill="#CDA257"></path>
+                <g id="red-white-blue-front" transform="translate(272.000000, 0.000000)">
+                    <polygon id="blauw" fill="#4990E2" points="371.647599 0.126665255 415.508805 0.121931962 141.331553 401.240522 93.1484375 400.015625"></polygon>
+                    <polygon id="wit" fill="#F9F9F9" points="321.647599 0.126665255 371.508805 0.121931962 98.4680176 400.298828 43.1967773 400.219238"></polygon>
+                    <polygon id="rood" fill="#E40000" points="278.647599 0.126665255 322.508805 0.121931962 49.3315535 400.240522 0.1484375 401.015625"></polygon>
+                </g>
+                <ellipse id="outer-circle" fill="#CDA257" cx="340.149922" cy="622.357493" rx="202.642507" ry="202.642507"></ellipse>
+                <ellipse id="highlight-circle" fill="#F8C264" cx="340.149922" cy="622.357493" rx="150.578794" ry="150.578794"></ellipse>
+                <ellipse id="inner-circle" fill="#CDA257" cx="340.968285" cy="623.175857" rx="133.393171" ry="133.393171"></ellipse>
+                <path d="M341.786648,756.56657 C415.081067,756.126248 474.361455,696.573891 474.361455,623.175857 C474.361455,549.777822 415.081067,490.225465 341.786648,489.785143 L341.786648,756.56657 Z" id="half-circle" fill="#B18842"></path>
+                <g id="3" fill-opacity="1" fill="#FFFFFF">
+                    <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+                    <use xlink:href="#text-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
